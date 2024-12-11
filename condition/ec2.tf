@@ -7,7 +7,6 @@ resource "aws_instance" "terraform" {
         }
 }
 
-
 resource "aws_security_group" "allow_ssh_terraform" {
     name = "sg_allow_ssh"
     description = "allow port number 22 for ssh access"  
